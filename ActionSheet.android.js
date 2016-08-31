@@ -362,7 +362,7 @@ let styles = StyleSheet.create({
     fontWeight: '700',
   },
   rowSeparator: {
-    backgroundColor: '#dddddd',
+    backgroundColor: '#E2E4E7',
     height: 1,
     flex: 1,
   },
