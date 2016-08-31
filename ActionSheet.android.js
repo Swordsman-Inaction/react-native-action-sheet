@@ -360,6 +360,7 @@ let styles = StyleSheet.create({
   text: {
     fontSize: 17,
     fontWeight: '700',
+    textAlignVertical: 'center',
   },
   rowSeparator: {
     backgroundColor: '#E2E4E7',
