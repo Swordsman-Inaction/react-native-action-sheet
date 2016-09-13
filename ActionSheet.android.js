@@ -18,9 +18,7 @@ import {
 } from 'react-native';
 
 // Not everybody has this enabled yet
-// TODO change it back on 0.33 after RN supports the tranform animation
-// const useNativeDriver = !!NativeModules.NativeAnimatedModule;
-const useNativeDriver = false;
+const useNativeDriver = !!NativeModules.NativeAnimatedModule;
 
 type ActionSheetOptions = {
   options: Array<string>,
